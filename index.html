@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список задач</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Список здач</h1>
+    <div class="containerInp">
+        <input id="taskInput" type="text" placeholder="Веведите текст задачи">
+        <button id="addTaskBtn">Добавить задачу</button>
+    </div>
+    <h3>Сортировка задач:</h3>
+    <div class="containerBut">
+        <button id="showAllBtn">Все задачи</button>
+        <button id="showPendingBtn">Показать не выполненные</button>
+        <button id="showCompletedBtn">Показать выполненные</button>
+    </div>
+
+    <h3>Список задач:</h3>
+    <div class="containerLst">
+        <ul id="taskList"></ul>
+    </div>
+    </div>
+    <script src="indexBase.js"></script>
+</body>
+
+</html>

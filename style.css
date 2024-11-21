@@ -1,0 +1,100 @@
+body {
+  max-width: 800px;
+  min-width: 600px;
+  margin: auto;
+  margin-top: 70px;
+  background: #dcf0ef;
+  border: 1px solid;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 4px 3px 13px 3px #163836;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.containerInp {
+  display: block;
+  unicode-bidi: isolate;
+}
+.containerBut {
+  display: block;
+  unicode-bidi: isolate;
+}
+.containerLst {
+  display: block;
+  unicode-bidi: isolate;
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  flex: 1;
+  margin-right: 10px;
+  margin-left: 50px;
+
+}
+
+button {
+  margin-left: 50px;
+  padding: 5px 10px;
+  border: solid 1px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: black;
+  font-size: 14px;
+}
+#taskList {
+display: block;
+list-style-type: disc;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+unicode-bidi: isolate;
+}
+#addTaskBtn {
+  color: rgb(19, 46, 86);
+  font-weight: 700;
+}
+
+#showAllBtn {
+  color: rgb(19, 46, 86);
+  font-weight: 700;
+}
+
+#showPendingBtn {
+  color: rgb(158, 32, 87);
+  font-weight: 700;
+}
+
+#showCompletedBtn {
+  color: #3bb54a;
+  font-weight: 700;
+}
+
+.containerLst ul button {
+  color: #ff4141;
+  font-weight: 700;
+}
+
+li {
+  list-style-type: none;
+}
+
+span.completed {
+  text-decoration: line-through;
+  color: green;
+}
